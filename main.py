@@ -1,5 +1,4 @@
 import requests
-import os
 from datetime import datetime
 
 PIXELA_ENDPOINT = "https://pixe.la/v1/users"
