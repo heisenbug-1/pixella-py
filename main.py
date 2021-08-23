@@ -1,10 +1,11 @@
 import requests
+import os
 from datetime import datetime
 
 PIXELA_ENDPOINT = "https://pixe.la/v1/users"
-USER_NAME = "heisenbug"
-TOKEN = "sdfghjkiyrbslspppn"
-GRAPH_ID = "graph01"
+USER_NAME = "YOUR_USER_NAME"
+TOKEN = "YOUR_TOKEN"
+GRAPH_ID = "YOUR_GRAPH_ID"
 
 USER_PARAMS = {
     "token": TOKEN ,
